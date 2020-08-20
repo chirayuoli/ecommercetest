@@ -10,41 +10,51 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <input type="checkbox" id="check" />
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-          <i class="fas fa-times" id="cancel"></i>
-        </label>
         <div class="sidebar">
-          <header>My Menu</header>
-          <a href="#" class="active">
-            <i class="fas fa-qrcode"></i>
-            <span>Dashboard</span>
-          </a>
-          <a href="#">
-            <i class="fas fa-link"></i>
-            <span>Shortcuts</span>
-          </a>
-          <a href="#">
-            <i class="fas fa-stream"></i>
-            <span>Overview</span>
-          </a>
-          <a href="#">
-            <i class="fas fa-calendar"></i>
-            <span>Events</span>
-          </a>
-          <a href="#">
-            <i class="far fa-question-circle"></i>
-            <span>About</span>
-          </a>
-          <a href="#">
-            <i class="fas fa-sliders-h"></i>
-            <span>Services</span>
-          </a>
-          <a href="#">
-            <i class="far fa-envelope"></i>
-            <span>Contact</span>
-          </a>
+          <ul class="sidebar-bar">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-store"></i>
+                <span>Market</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-pen"></i>
+                <span>Blog</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-paw"></i>
+                <span>Profile</span>
+              </a>{" "}
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-globe"></i>
+                <span>Discover</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-sliders-h"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="far fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     );
