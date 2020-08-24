@@ -1,6 +1,6 @@
 import React from "react";
 // import Footer from "./components/footer";
-// import HomeBody from "./components/homebody";
+import HomeBody from "./components/homebody";
 import Header from "./components/header";
 import { CardList } from "./components/card-list/card-list.component";
 
@@ -11,7 +11,9 @@ import "./App.css";
 //     <div className="App">
 
 //       {/* <HomeBody /> */}
-//       {/* <Footer /> */}
+{
+  /* <Footer /> */
+}
 //     </div>
 //   );
 // }
@@ -36,9 +38,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <input type="search" placeholder="search monsters" onChange={e => } /> */}
         <Header />
         <CardList monsters={this.state.monsters}></CardList>
+        <HomeBody />
       </div>
     );
   }
