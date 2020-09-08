@@ -10,6 +10,10 @@
     width: 70px;
     padding: 25px;
   }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
 
   .options {
     width: 50%;
@@ -20,6 +24,7 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
     }
   }
 }
