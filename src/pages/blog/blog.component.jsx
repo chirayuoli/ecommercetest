@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import BlogItem from "../../components/blog-item/blog-item.component";
 
-const Blog =() => (
-    <div>
-        Hello this is blog!
-    </div>
+const Blog = () => (
+  <div>
+    <BlogItem title="dog_food" />
+    <BlogItem title="cat_foodnp" />
+  </div>
 );
 
-export default Blog
+export default Blog;
