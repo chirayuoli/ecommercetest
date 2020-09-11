@@ -3,8 +3,10 @@ import BlogItem from "../../components/blog-item/blog-item.component";
 
 const Blog = () => (
   <div>
-    <BlogItem title="dog_food" />
-    <BlogItem title="cat_foodnp" />
+    <BlogItem />
+    <BlogItem />
+    <BlogItem />
+    <BlogItem />
   </div>
 );
 

@@ -1,16 +1,12 @@
 import React from "react";
-
+import Card from "../card/card.component";
 import "./blog-item.styles.scss";
 
 const BlogItem = ({ title }) => (
-  <div>
-    <h1>Blog Title{title}</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis
-      voluptates sint vero dolorem officia, asperiores corporis distinctio
-      facilis, tenetur quisquam, blanditiis nemo labore autem nesciunt. Deleniti
-      tempora maiores minus.
-    </p>
+  <div className="blog-item">
+    <Card title="Dog food" />
+    <Card title="Cat food" />
+    <Card title="Fish food" />
   </div>
 );
 
